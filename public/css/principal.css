@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.mainWrapper {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+}
+
+
+/*Estilo de menú*/
+
+div.mainWrapper ul {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    height: 25px;
+    position: fixed;
+    background: #67b0d1;
+    list-style: none;
+    justify-content: flex-end
+}
+
+div.mainWrapper ul li {
+    color: white;
+    font-family: Roboto, sans-seriff;
+    font-size: 0.8em;
+    float: right;
+    width: 80px;
+    cursor: pointer;
+    padding: 3px;
+}
+
+div.mainWrapper ul li#logo {
+    position: absolute;
+    left: 20px;
+    align-self: flex-start;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 8px;
+}
+
+div.mainWrapper ul li:hover {
+    background: rgba(255, 255, 255, 0.3)
+}
+
+div.mainWrapper ul #logo:hover {
+    background: rgba(255, 255, 255, 0.3)
+}
+
+div.mainWrapper div#headContainer {
+    display: block;
+    padding-top: 45px;
+    width: 100%;
+    min-height: calc(100vh-45px);
+    background: #23b4b9;
+    text-align: center;
+}
+
+div.mainWrapper div#headContainer h2,
+div.mainWrapper div#headContainer h3 {
+    color: white;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 5px 3px gray;
+}
+
+div.mainWrapper div#headContainer h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+div.mainWrapper div table {
+    width: 100%;
+}
+
+div.mainWrapper div table tr {
+    width: 100%;
+}
+
+div.mainWrapper div table tr td {
+    width: 8.33%;
+}
+
+div.mainWrapper div#aboutContainer {
+    width: 100%;
+    padding: 30px 20px 10px 20px;
+}
+
+.titulo {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+}
+
+div.card {
+    width: calc(100%-20px);
+    background: #f8f8f8;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+div.card div p:first-child {
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+div.card div p:last-child {
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #333;
+}
+
+div.card img{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.mainWrapper div#serviceContainer{
+    width: calc(100%-40px);
+    padding: 30px 20px 10px 20px;
+    margin-top: 30px;
+    background: #ccc;
+}
+
+div.cardServices{
+    display: block;
+    width: 100%;
+    margin: 10px;
+    min-height: 200px;
+    text-align: center;
+}
+
+div.cardServices img{
+    width: 40%;
+    margin: 40px;
+}
+
+div.cardServices div h6{
+    font-family: 'Courier New', Courier, monospace,Arial, Helvetica, sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
